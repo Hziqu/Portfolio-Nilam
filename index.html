@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HanifaSpace</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="style2.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css"
-    integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous">
-  <link rel="stylesheet" href="tailwind.js">
+
 </head>
 
 <body class="m-0 bg-gradient-to-r from-blue-200 to-blue-400">
@@ -18,13 +15,13 @@
     <div class="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
       <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 logo-hover">
         <img src="foto/logononbg.png" class="w-20 h-20 text-white p-2 rounded-full">
-        <span class="ml-3 text-xl">HanifaSpace</span>
+        <span class="ml-3 text-xl font-bold text-blue-600">HanifaSpace</span>
       </a>
-      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-        <a class="mr-5 nav-link" href="#home">Home</a>
-        <a class="mr-5 nav-link" href="#aboutme">About Me</a>
-        <a class="mr-5 nav-link" href="#portofolio">Portfolio</a>
-        <a class="mr-5 nav-link" href="#contact">Contact</a>
+      <nav class="md:ml-auto flex flex-wrap items-center justify-center text-lg font-bold text-blue-600">
+        <a class="mr-5 nav-link hover:text-blue-700 active:text-blue-800 focus:text-blue-900 visited:text-blue-600" href="#home">Home</a>
+        <a class="mr-5 nav-link hover:text-blue-700 active:text-blue-800 focus:text-blue-900 visited:text-blue-600" href="#aboutme">About Me</a>
+        <a class="mr-5 nav-link hover:text-blue-700 active:text-blue-800 focus:text-blue-900 visited:text-blue-600" href="#portofolio">Portfolio</a>
+        <a class="mr-5 nav-link hover:text-blue-700 active:text-blue-800 focus:text-blue-900 visited:text-blue-600" href="#contact">Contact</a>
       </nav>
     </div>
   </header>
@@ -46,9 +43,9 @@
         <h1 class="title-font lg:text-4xl text-3xl mb-4 font-bold text-gray-900">
           <span class="typing-effect rainbow-text font-effect">HanifaSpace Web Developer    </span>
         </h1>
-        <p class="mb-8 leading-relaxed">I am a Web Developer who is currently developing a portfolio
+        <p class="text-xl leading-relaxed">I am a Web Developer who is currently developing a portfolio
           website to showcase my work, projects, and expertise in the field of website and application development.</p>
-        <div class="flex justify-center">
+        <div class="flex justify-center mt-4">
           <a class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg btn-animate"
             a href="#aboutme">Learn More</a>
         </div>
@@ -64,10 +61,10 @@
           src="foto/about3.jpg">
         <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0 animate-fade-in-delay">
           <h2 class="text-sm title-font text-gray-500 tracking-widest">HALLO</h2>
-          <h1 class="text-gray-900 text-3xl title-font font-medium mb-1">About Me</h1>
+          <h1 class="text-blue-900 text-4xl title-font font-bold mb-1">About Me</h1>
           <div class="flex mb-4">
           </div>
-          <p class="text-xl leading-relaxed">A beginner web developer with a focus on developing responsive and
+          <p class="text-2xl leading-relaxed">A beginner web developer with a focus on developing responsive and
             user-friendly websites. Skilled in HTML, CSS, JavaScript, and basic frameworks such as Bootstrap.
             Experienced working on simple projects to hone technical and teamwork skills. Accustomed to self-study, has
             a
@@ -101,10 +98,10 @@
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-col animate-fade-slide-in">
           <div class="h-1 bg-gray-200 rounded overflow-hidden mb-6">
-            <div class="w-24 h-full bg-indigo-500"></div>
+            <div class="w-24 h-full bg-blue-900"></div>
           </div>
           <div class="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
-            <h1 class="sm:w-2/5 text-gray-900 font-medium title-font text-3xl mb-2 sm:mb-0">Portofolio</h1>
+            <h1 class="sm:w-2/5 text-blue-900 font-bold title-font text-4xl mb-2 sm:mb-0">Portofolio</h1>
             <p class="sm:w-3/5 leading-relaxed text-xl sm:pl-10 pl-0">Here are some of my project works
               that have been developed using HTML, CSS, and JavaScript.</p>
           </div>
@@ -119,7 +116,7 @@
                 class="object-cover object-center h-full w-full transition-transform duration-300 hover:scale-105 active:scale-95"
                 src="foto/tugas.sm1.png">
             </div>
-            <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Projact 2024</h2>
+            <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Project 2024</h2>
             <p class="text-base leading-relaxed mt-2">A semester 1 project to create a simple website using HTML and
               CSS.</p>
             <a class="text-indigo-500 inline-flex items-center mt-3" href="https://hn6734982.github.io/Project/MainMenu.html">Learn More
@@ -225,13 +222,13 @@
       <!--contact kiri-->
       <div class="fade-in-left">
         <div>
-          <h2 class="text-3xl font-bold mb-4">Contact Us</h2>
-          <p class="text-gray-600 mb-8">If you have any questions
+          <h2 class="text-blue-900 text-4xl font-bold mb-4">Contact Us</h2>
+          <p class="text-gray-600 text-lg mb-8">If you have any questions
             or would like to discuss further, please fill out the form below. We will respond as soon as possible.</p>
           <div class="space-y-6">
             <div class="flex items-start space-x-4">
               <div class="bg-blue-500 text-white p-2 rounded-full">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                   <path d="M12 2C8.134 2 5 5.134 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.866-3.134-7-7-7z" />
                 </svg>
               </div>
@@ -242,11 +239,12 @@
             </div>
             <div class="flex items-start space-x-4">
               <div class="bg-blue-500 text-white p-2 rounded-full">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path
-                    d="M3 5h2l3 7-1.34 2.68A2 2 0 0 0 6 16h11v-2H6.42a.5.5 0 0 1-.47-.32L7 13h7a2 2 0 0 0 1.85-1.23L20 4H5.21l-.94-2H1v2h2l3.6 7.59-1.35 2.45A4.992 4.992 0 0 0 2 20c0 1.66 1.34 3 3 3h14v-2H5a1 1 0 0 1 0-2h13a1 1 0 0 0 1-1v-1h-3v1H5l1.1-2h9.45a4 4 0 0 0 3.57-2.12l3.24-5.88A1 1 0 0 0 21 3H5.21l-.94-2H1v2h2z" />
-                </svg>
-              </div>
+  <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+       viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path stroke-linecap="round" stroke-linejoin="round"
+          d="M3 5a2 2 0 012-2h1.586a1 1 0 01.707.293l2.828 2.828a1 1 0 01.293.707V9a1 1 0 01-1 1H8.414l-1.293 1.293a12.042 12.042 0 005.293 5.293L13 15.586V13a1 1 0 011-1h1.172a1 1 0 01.707.293l2.828 2.828a1 1 0 01.293.707V19a2 2 0 01-2 2h-1C9.163 21 3 14.837 3 7V5z" />
+  </svg>
+</div>
               <div>
                 <h4 class="text-blue-600 font-semibold">Phone</h4>
                 <p>+62 2453-7522-678</p>
@@ -254,10 +252,12 @@
             </div>
             <div class="flex items-start space-x-4">
               <div class="bg-blue-500 text-white p-2 rounded-full">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path d="M22 4L12 13 2 4" />
-                </svg>
-              </div>
+  <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+       viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path stroke-linecap="round" stroke-linejoin="round"
+          d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m0 0v8a2 2 0 01-2 2H5a2 2 0 01-2-2V8m18 0L12 13 3 8" />
+  </svg>
+</div>
               <div>
                 <h4 class="text-blue-600 font-semibold">Email</h4>
                 <p>HanifaSpace@gmail.com</p>
@@ -269,7 +269,7 @@
       <!--form-->
       <div class="bg-gray-100 p-8 rounded-lg shadow-xl fade-in-right">
         <div class="bg-gray-100 p-8 rounded-lg shadow">
-          <h3 class="text-xl font-semibold mb-4">Send Message</h3>
+          <h3 class="text-blue-900 text-xl font-semibold mb-4">Send Message</h3>
           <form class="space-y-4">
             <input type="text" placeholder="Full Name" class="w-full border-b-2 p-2 focus:outline-none" />
             <input type="email" placeholder="Email" class="w-full border-b-2 p-2 focus:outline-none" />
@@ -288,7 +288,7 @@
       <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
         <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
           <img src="foto/logononbg.png" class="w-20 h-20 text-white p-2 rounded-full">
-          <span class="ml-3 text-xl">HanifaSpace</span>
+          <span class="ml-3 text-xl font-bold text-blue-600">HanifaSpace</span>
         </a>
 
       </div>
