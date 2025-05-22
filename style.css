@@ -86,22 +86,21 @@
   transform: translateY(-3px);
 }
 /*skill*/
-@keyframes progress-fill {
-  from {
+@keyframes progressBounce {
+  0% {
     width: 0%;
   }
-  to {
-    width: var(--target-width);
+  50% {
+    width: calc(var(--target-width) + 5%); /* Bounce naik */
+  }
+  100% {
+    width: var(--target-width); /* Akhir di target */
   }
 }
-@keyframes progressBounce {
-    0%, 100% {
-      width: 0%;
-    }
-    50% {
-      width: var(--target-width);
-    }
-  }
-  .progress-bar {
-    animation: progressBounce 3s ease-in-out infinite;
-  }
+
+.progress-bar {
+  --target-width: 85%;
+  animation: progressBounce 2s ease-in-out forwards;
+  background-color: blue;
+  height: 100%;
+}
