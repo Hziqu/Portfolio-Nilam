@@ -1,9 +1,9 @@
 window.onload = () => {
   const el = document.querySelector('.typing-effect.rainbow-text');
   const text = el.textContent;
-  el.textContent = ''; // kosongkan dulu
+  el.textContent = '';
 
-  // Terapkan style gradasi langsung dengan JavaScript
+  // style gradasi
   el.style.background = 'linear-gradient(90deg, #0000FF, #1E90FF, #4682B4, #4169E1, #007BFF, #0056B3, #003F88)';
   el.style.webkitBackgroundClip = 'text';
   el.style.webkitTextFillColor = 'transparent';
